@@ -35,12 +35,14 @@ namespace CyrillicTicker
                 Console.WriteLine($"Сохранено: {outputFile}");
 
                 const string process = "Msgeditor.exe";
-                if (File.Exists(process))
+                string processPath = Path.Combine(Asm.GetCurrentPath(), process);
+
+                if (File.Exists(processPath))
                 {
                     Console.Write($"{Environment.NewLine}Нажмите Пробел чтобы открыть программу в редакторе.");
                     var answer = Console.ReadKey(false);
                     if (answer.Key == ConsoleKey.Spacebar)
-                        Process.Start(process, outputFile);
+                        Process.Start(processPath, "\"" + outputFile + "\"");
                 }
                 else
                 {

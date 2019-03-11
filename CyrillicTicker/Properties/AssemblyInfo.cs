@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("CyrillicTicker")]
+[assembly: AssemblyTitle("Кириллица для бегущей строки")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CyrillicTicker")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCompany("Evgeny Zotov")]
+[assembly: AssemblyProduct("Кириллица для бегущей строки")]
+[assembly: AssemblyCopyright("Copyright © 2019 by Evgeny Zotov")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
